@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: normal;
+    color: rgb(47, 62, 54);
+    background-color: rgb(154, 238, 197);
+    opacity: 1;
+}
+
+.container {
+   max-width: 650px;
+   margin: auto;
+}
+
+.contents {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.info {
+    display: flex;     
+    margin-bottom: 30px;
+}
+
+.info img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 200px;
+}
+
+.info_text {
+    margin-left: 50px;
+}
+
+p {
+    padding-top: 10px;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .info_text {
+        margin: 10px;
+    }
+   
+}
+
+.card {
+    border-radius: 50%;
+    background-color: rgba(12, 91, 49, 0.5);
+    color: rgb(154, 238, 197);
+    margin-bottom: 30px;
+    padding: 40px;
+    text-align: center;
+}
+
+@media (max-width: 520px) {
+    .card {
+        font-size: 14px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+.goals ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.goals ul li:first-child {
+    margin-top: 20px;
+}
+
+table{
+    width: 100%;
+}
+
+table td, th {
+    padding-bottom: 10px;
+}
+
+.table_time h2, .table_course h2 {
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 520px) {
+    table {
+    padding: 10px;
+    margin-left: 0;
+    }
+}
+
+.social {
+    margin-bottom: 30px;
+    text-align: center;
+    border-top: 2px solid rgb(47, 62, 54);
+}
+
+a .fa {
+    color: rgb(47, 62, 54);
+    margin-top: 30px;
+}
+
+a:hover {
+    font-size:30px ;
+}
+
+
